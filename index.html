@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go UMKM</title>
+  <link rel="stylesheet" href="assets/libraries/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+
+<body>
+
+
+
+  <!-- HEADER MENU -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-fixed-top" data-aos="fade-down">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo_umkm.png" alt="logo">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mymenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mymenu">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item mx-md-2">
+            <a href="#" class="nav-link active">Beranda</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="daftar_umkm.html" class="nav-link">Daftar UMKM</a>
+          </li>
+          <li class="nav-item dropdown mx-md-2">
+            <a href="" class="nav-link dropdown-toggle" id="menudropdown" data-toggle="dropdown">
+              Contoh Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Menu 1</a>
+              <a href="#" class="dropdown-item">Menu 2</a>
+              <a href="#" class="dropdown-item">Menu 3</a>
+            </div>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="list_kegiatan.html" class="nav-link">Kegiatan</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="#" class="nav-link">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <!-- Image Banner -->
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-aos="fade-left">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner justify-content-center">
+        <div class="carousel-item active">
+          <img src="assets/images/Image.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h2>Sukses Bersama UMKM</h2>
+            <p>Membina bersama untuk ekonomi masyarakat <br>
+              yang lebih sejahtera..</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/Image.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h2>Sukses Bersama UMKM</h2>
+            <p>Membina bersama untuk ekonomi masyarakat <br>
+              yang lebih sejahtera..</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/Image.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h2>Sukses Bersama UMKM</h2>
+            <p>Membina bersama untuk ekonomi masyarakat <br>
+              yang lebih sejahtera..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- Rekap Data -->
+    <section class="rekap-umkm row justify-content-center text-center" data-aos="fade-up">
+      <div class="col-md-12 text-rekap-umkm">
+        <h2>REKAP UMKM</h2>
+      </div>
+      <div class="col-3 col-md-2 stats-detail">
+        <h2>100</h2>
+        <p>UMKM</p>
+      </div>
+      <h1>|</h1>
+      <div class="col-3 col-md-2 stats-detail">
+        <h2>200</h2>
+        <p>Produk</p>
+      </div>
+      <h1>|</h1>
+      <div class="col-3 col-md-2 stats-detail">
+        <h2>20</h2>
+        <p>Jenis Usaha</p>
+      </div>
+    </section>
+
+    <!-- Produk Kredit -->
+    <section class="produk-kredit" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 kredit-text">
+            <h2>SOLUSI KREDIT UMKM</h2>
+            <p class="subtitle">Pilihan kredit yang tepat untuk mengembangkan UMKM</p>
+            <p class="item"><span><img src="assets/images/ic_check.png" alt=""
+                  style="width: 25px; height: 18px;"></span> Proses Mudah </p>
+            <p class="item"><span><img src="assets/images/ic_check.png" alt=""
+                  style="width: 25px; height: 18px;"></span> Cicilan Ringan</p>
+            <p class="item"><span><img src="assets/images/ic_check.png" alt=""
+                  style="width: 25px; height: 18px;"></span> Jangka waktu sampai 10 tahun</p>
+            <p class="item"><span><img src="assets/images/ic_check.png" alt=""
+                  style="width: 25px; height: 18px;"></span> Perlindungan asuransi</p>
+            <a href="kredit.html" class="btn btn-kredit">Selengkapnya</a>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <img class="img-fluid" src="assets/images/pinjaman.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIST UMKM DAN KEGIATAN -->
+    <section class="list-umkm-kegiatan" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8 list-umkm">
+            <h2>UMKM BINAAN</h2>
+            <p>Mereka yang telah menjadi binaan kami</p>
+            <ul class="list-unstyled">
+
+              <li class="list-umkm-item">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <a href="#"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <h6>KULINER</h6>
+                    <a href="#">
+                      <h5 class="text-break" style="width: 30rem; max-lines: 1;">CV. SANGKURIANG KENCANA BAKTI</h5>
+                    </a>
+                    <p>Menjual produk cemilan khan daerah seperti opak, rengginang dan
+                      Makanan khas daerah jawa barat lainnya.. </p>
+                    <div class="read-more"><a href="">Selengkapnya..</a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-umkm-item">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <a href="#"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <h6>KULINER</h6>
+                    <a href="#">
+                      <h5 class="text-break" style="width: 30rem; max-lines: 1;">CV. SANGKURIANG KENCANA BAKTI</h5>
+                    </a>
+                    <p>Menjual produk cemilan khan daerah seperti opak, rengginang dan
+                      Makanan khas daerah jawa barat lainnya.. </p>
+                    <div class="read-more"><a href="">Selengkapnya..</a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-umkm-item">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <a href="#"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <h6>KULINER</h6>
+                    <a href="#">
+                      <h5 class="text-break" style="width: 30rem; max-lines: 1;">CV. SANGKURIANG KENCANA BAKTI</h5>
+                    </a>
+                    <p>Menjual produk cemilan khan daerah seperti opak, rengginang dan
+                      Makanan khas daerah jawa barat lainnya.. </p>
+                    <div class="read-more"><a href="">Selengkapnya..</a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-umkm-item">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <a href="#"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <h6>KULINER</h6>
+                    <a href="#">
+                      <h5 class="text-break" style="width: 30rem; max-lines: 1;">CV. SANGKURIANG KENCANA BAKTI</h5>
+                    </a>
+                    <p>Menjual produk cemilan khan daerah seperti opak, rengginang dan
+                      Makanan khas daerah jawa barat lainnya.. </p>
+                    <div class="read-more"><a href="">Selengkapnya..</a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-umkm-item">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                    <a href="#"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <h6>KULINER</h6>
+                    <a href="#">
+                      <h5 class="text-break" style="width: 30rem; max-lines: 1;">CV. SANGKURIANG KENCANA BAKTI</h5>
+                    </a>
+                    <p>Menjual produk cemilan khan daerah seperti opak, rengginang dan
+                      Makanan khas daerah jawa barat lainnya.. </p>
+                    <div class="read-more"><a href="">Selengkapnya..</a></div>
+                  </div>
+                </div>
+              </li>
+              
+
+            </ul>
+            <div class="text-center">
+              <a href="daftar_umkm.html" class="btn btn-lihat">Lihat</a>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-4 list-kegiatan">
+            <h2>KEGIATAN TERBARU</h2>
+            <p>Kegiatan rutin yang paling terbaru</p>
+            <ul class="list-unstyled">
+
+              <li class="list-kegiatan-item">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <a href="detail_kegiatan.html"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                    <a href="detail_kegiatan.html">
+                      <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-kegiatan-item">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <a href="detail_kegiatan.html"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                    <a href="detail_kegiatan.html">
+                      <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-kegiatan-item">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <a href="detail_kegiatan.html"><img class="rounded float-start" src="assets/images/banner-umkm-small.jpg" alt=""
+                        style="width: 100%; height: auto;"></a>
+                    <a href="detail_kegiatan.html">
+                      <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+            <div class="text-center">
+              <a href="list_kegiatan.html" class="btn btn-lihat">Lihat</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="section-footer mt-5">
+      <div class="container pt-3 pb-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <a href="#"><img src="assets/images/logo_umkm.png" class="img-fluid" alt=""
+                    style="width: 40%; height: auto;"></a>
+                <ul class="list-unstyled">
+                  <li>Jalan K.H Abdul halim No. 1
+                    Majalengka, Jawa Barat</li>
+                  <li>Indonesia</li>
+                  <li>0822-4037-6552</li>
+                  <li>go.umkm@mail.com</li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+                <h5>MENU</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Beranda</a></li>
+                  <li><a href="#">Daftar UMKM</a></li>
+                  <li><a href="#">Kegiatan</a></li>
+                  <li><a href="#">Tentang Kami</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Rewards</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Rewards</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyrighter">
+        <div class="row justify-content-center border-top align-item-center pt-2">
+          <div class="col-auto">
+            <img src="/assets/images/logo_bpr.png" class="img-fluid" style="height: auto; width: 50%;" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </main>
+
+
+
+
+
+
+  <script src="assets/libraries/jquery/jquery-3.5.1.min.js"></script>
+  <script src="assets/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/libraries/retina/retina.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go UMKM</title>
+  <link rel="stylesheet" href="assets/libraries/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="stylesheet" href="assets/libraries/xzoom/dist/xzoom.css" />
+</head>
+
+<body>
+
+
+
+  <!-- HEADER MENU -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-fixed-top" data-aos="fade-down">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo_umkm.png" alt="logo">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mymenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mymenu">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item mx-md-2">
+            <a href="index.html" class="nav-link">Beranda</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="daftar_umkm.html" class="nav-link">Daftar UMKM</a>
+          </li>
+          <li class="nav-item dropdown mx-md-2">
+            <a href="" class="nav-link dropdown-toggle" id="menudropdown" data-toggle="dropdown">
+              Contoh Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Menu 1</a>
+              <a href="#" class="dropdown-item">Menu 2</a>
+              <a href="#" class="dropdown-item">Menu 3</a>
+            </div>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="list_kegiatan.html" class="nav-link active">Kegiatan</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="#" class="nav-link">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <main>
+    <section class="section-content-header"></section>
+
+    <!-- Breadcrumb -->
+    <section class="section-content-breadcrumb">
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">Beranda</li>
+                <li class="breadcrumb-item">Kegiatan</li>
+                <li class="breadcrumb-item active">Detail</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="section-detail-kegiatan">
+      <div class="container">
+        <div class="row">
+
+          <!-- Konten Kegiatan -->
+          <div class="col-lg-8 col-md-12">
+            <div class="row">
+              <div class="col-lg 12 col-md-12">
+                <div class="card konten-kegiatan">
+                  <div class="card-body">
+
+                    <!-- Gallery Kegiatan -->
+                    <div class="gallery">
+                      <div class="xzoom-container">
+                        <img class="xzoom img-fluid rounded" id="xzoom-default"
+                          src="assets/images/banner-umkm-small.jpg" xoriginal="assets/images/banner-umkm-small.jpg" />
+                        <div class="xzoom-thumbs">
+                          <a href="assets/images/banner-umkm-small.jpg"><img class="xzoom-gallery" width="128"
+                              src="assets/images/banner-umkm-small.jpg"
+                              xpreview="assets/images/banner-umkm-small.jpg" /></a>
+                          <a href="assets/images/dummy_event1.jpg"><img class="xzoom-gallery" width="128"
+                              src="assets/images/dummy_event1.jpg" xpreview="assets/images/dummy_event1.jpg" /></a>
+                          <a href="assets/images/dummy_event2.jpg"><img class="xzoom-gallery" width="128"
+                              src="assets/images/dummy_event2.jpg" xpreview="assets/images/dummy_event2.jpg" /></a>
+                          <a href="assets/images/dummy_event3.jpg"><img class="xzoom-gallery" width="128"
+                              src="assets/images/dummy_event3.jpg" xpreview="assets/images/dummy_event3.jpg" /></a>
+                          <a href="assets/images/dummy_event4.jpg"><img class="xzoom-gallery" width="128"
+                              src="assets/images/dummy_event4.jpg" xpreview="assets/images/dummy_event4.jpg" /></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Deskrisi -->
+                    <h2>Halal Bi Halal bersama anggota UMKM binaan dalam rangka 1 syawal 1445 H</h2>
+                    <div class="row des-kegiatan">
+                      <h6 class="ml-3 mr-2">Admin</h6>
+                      <p class="posted-time"> - 13 Mei 2021 </p>
+                    </div>
+                    <p>Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place
+                      of English to emphasise design elements over content. It's also called placeholder (or filler)
+                      text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document
+                      or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by
+                      the classical author and philosopher Cicero. Its words and letters have been changed by addition
+                      or removal, so to deliberately render its content nonsensical; it's not genuine, correct, or
+                      comprehensible Latin anymore. While lorem ipsum's still resembles classical Latin, it actually has
+                      no meaning whatsoever. As Cicero's text doesn't contain the letters K, W, or Z, alien to latin,
+                      these, and others are often inserted randomly to mimic the typographic appearence of European
+                      languages, as are digraphs not to be found in the original.
+
+                      In a professional context it often happens that private or corporate clients corder a publication
+                      to be made and presented with the actual content still not being ready. Think of a news blog
+                      that's filled with content hourly on the day of going live. However, reviewers tend to be
+                      distracted by comprehensible content, say, a random text copied from a newspaper or the internet.
+                      The are likely to focus on the text, disregarding the layout and its elements. Besides, random
+                      text risks to be unintendedly humorous or offensive, an unacceptable risk in corporate
+                      environments. Lorem ipsum and its many variants have been employed since the early 1960ies, and
+                      quite likely since the sixteenth century.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="row konten-kegiatan-lainnya">
+              <div class="col-lg-12 col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <ul class="list-unstyled">
+                      <li class="mb-4">
+                        <a href="detail_kegiatan.html"><img class="rounded float-start mb-2"
+                            src="assets/images/dummy_event1.jpg" alt="" style="width: 100%; height: auto;"></a>
+                        <a href="detail_kegiatan.html">
+                          <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a href="detail_kegiatan.html"><img class="rounded float-start mb-2"
+                            src="assets/images/dummy_event2.jpg" alt="" style="width: 100%; height: auto;"></a>
+                        <a href="detail_kegiatan.html">
+                          <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a href="detail_kegiatan.html"><img class="rounded float-start mb-2"
+                            src="assets/images/dummy_event3.jpg" alt="" style="width: 100%; height: auto;"></a>
+                        <a href="detail_kegiatan.html">
+                          <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a href="detail_kegiatan.html"><img class="rounded float-start mb-2"
+                            src="assets/images/dummy_event4.jpg" alt="" style="width: 100%; height: auto;"></a>
+                        <a href="detail_kegiatan.html">
+                          <h5>Kegiatan bagi sembako untuk para korban banjir di Majalengka</h5>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="section-footer mt-5">
+      <div class="container pt-3 pb-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <a href="#"><img src="assets/images/logo_umkm.png" class="img-fluid" alt=""
+                    style="width: 40%; height: auto;"></a>
+                <ul class="list-unstyled">
+                  <li>Jalan K.H Abdul halim No. 1
+                    Majalengka, Jawa Barat</li>
+                  <li>Indonesia</li>
+                  <li>0822-4037-6552</li>
+                  <li>go.umkm@mail.com</li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+                <h5>MENU</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Beranda</a></li>
+                  <li><a href="#">Daftar UMKM</a></li>
+                  <li><a href="#">Kegiatan</a></li>
+                  <li><a href="#">Tentang Kami</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Rewards</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Rewards</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyrighter">
+        <div class="row justify-content-center border-top align-item-center pt-2">
+          <div class="col-auto">
+            <img src="/assets/images/logo_bpr.png" class="img-fluid" style="height: auto; width: 50%;" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="assets/libraries/jquery/jquery-3.5.1.min.js"></script>
+  <script src="assets/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/libraries/retina/retina.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/c2d4afc15b.js" crossorigin="anonymous"></script>
+  <script src="assets/libraries/xzoom/dist/xzoom.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.xzoom, .xzoom-gallery').xzoom({
+        zoomWidth: 500,
+        title: false,
+        tint: '#333',
+        scroll: false,
+        Xoffset: 15
+      });
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

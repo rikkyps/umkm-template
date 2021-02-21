@@ -1,0 +1,439 @@
+.body {
+  background-color: #ffff;
+  font-family: 'Assistant', sans-serif;
+}
+
+.navbar {
+  background-color: #124C9A;
+  min-height: 60px;
+}
+
+.navbar-brand img {
+  min-height: 60px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #D5D5D5;
+  font-family: 'Montserrat', 'serif';
+  font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+  color: #ffff !important;
+}
+
+.btn-login {
+  font-family: 'Montserrat', 'serif';
+  background-color: #F8C22D;
+  color: #ffff;
+  font-size: 16px;
+}
+
+.btn-login:hover {
+  background-color: #FCCF52;
+  color: #ffffff;
+}
+
+.carousel {
+  margin-top: 60px;
+  background-size: cover;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 50px;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-family: 'Assistant', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.rekap-umkm {
+  background-color: #082752;
+}
+
+.rekap-umkm h1 {
+  color: #ffffff;
+}
+
+.rekap-umkm .text-rekap-umkm {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.rekap-umkm .stats-detail h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.rekap-umkm .stats-detail p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.produk-kredit {
+  margin-top: 20px;
+}
+
+.produk-kredit img {
+  position: relative;
+  width: 100%;
+}
+
+.produk-kredit .kredit-text {
+  margin-top: 120px;
+}
+
+.produk-kredit .kredit-text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.produk-kredit .kredit-text .subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: #BFBFBF;
+}
+
+.produk-kredit .kredit-text .item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.produk-kredit .kredit-text .btn-kredit {
+  color: #ffffff;
+  background-color: #124C9A;
+  font-family: 'Montserrat', 'serif';
+  font-size: 16px;
+}
+
+.list-umkm-kegiatan {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.list-umkm-kegiatan .list-umkm .btn-lihat {
+  font-family: 'Montserrat', 'serif';
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #BFBFBF;
+  color: white;
+}
+
+.list-umkm-kegiatan .list-umkm h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.list-umkm-kegiatan .list-umkm p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #BFBFBF;
+}
+
+.list-umkm-kegiatan .list-umkm .read-more {
+  margin-top: -1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item {
+  margin-bottom: 10px;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item h6 {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F8C22D;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item h5:hover {
+  color: #124C9A;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item p {
+  font-size: 18px;
+  color: #BFBFBF;
+}
+
+.list-umkm-kegiatan .list-kegiatan .btn-lihat {
+  font-family: 'Montserrat', 'serif';
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #BFBFBF;
+  color: white;
+}
+
+.list-umkm-kegiatan .list-kegiatan h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.list-umkm-kegiatan .list-kegiatan p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #BFBFBF;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item {
+  margin-bottom: 10px;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item h6 {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F8C22D;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item h5:hover {
+  color: #124C9A;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item p {
+  font-size: 18px;
+  color: #BFBFBF;
+}
+
+footer {
+  background-color: #D9D9D9;
+}
+
+.section-content-header {
+  background-color: #082752;
+  margin-top: 80px;
+  min-height: 310px;
+}
+
+.section-content-breadcrumb {
+  margin-top: -290px;
+}
+
+.section-content-breadcrumb .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.section-content-breadcrumb .breadcrumb .breadcrumb-item {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  color: white;
+}
+
+.section-content-breadcrumb .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+  color: white;
+}
+
+.section-daftar-umkm {
+  margin-top: 70px;
+}
+
+.section-daftar-umkm .card .card-body .header-title {
+  margin-bottom: 30px;
+}
+
+.section-daftar-umkm .card .card-body .header-title .btn-cari {
+  background-color: #F8C22D;
+}
+
+.section-daftar-umkm .card .card-body .header-title h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.section-daftar-umkm .card .card-body h5 {
+  color: black;
+}
+
+.section-daftar-umkm .card .card-body p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #BFBFBF;
+}
+
+.section-daftar-umkm .card .card-body h6 {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F8C22D;
+}
+
+.section-daftar-umkm .card .card-body .email {
+  font-size: 20px;
+}
+
+.section-daftar-umkm .card .card-body li {
+  margin-bottom: 10px;
+}
+
+.section-daftar-kegiatan {
+  margin-top: 70px;
+}
+
+.section-daftar-kegiatan .card .card-body .header-title {
+  margin-bottom: 30px;
+}
+
+.section-daftar-kegiatan .card .card-body .header-title .btn-cari {
+  background-color: #F8C22D;
+}
+
+.section-daftar-kegiatan .card .card-body .header-title h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.section-daftar-kegiatan .card .card-body h5 {
+  color: black;
+}
+
+.section-daftar-kegiatan .card .card-body p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #BFBFBF;
+}
+
+.section-daftar-kegiatan .card .card-body h6 {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F8C22D;
+}
+
+.section-daftar-kegiatan .card .card-body .posted-time {
+  font-size: 14px;
+}
+
+.section-daftar-kegiatan .card .card-body .description {
+  margin-top: -5px;
+}
+
+.section-title-produk-kredit {
+  margin-top: 80px;
+}
+
+.section-title-produk-kredit h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: -3px;
+}
+
+.section-title-produk-kredit p {
+  font-size: 18px;
+  color: #BFBFBF;
+}
+
+.section-konten-kredit {
+  margin-top: 20px;
+}
+
+.section-konten-kredit .item-kredit {
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+.section-konten-kredit h6 {
+  margin-top: 5px;
+  margin-bottom: -10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #124C9A;
+}
+
+.section-detail-kegiatan {
+  margin-top: 70px;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body h2 {
+  font-size: 20px;
+  color: #124C9A;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body .gallery .xzoom-container {
+  display: block;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body .gallery .xzoom-container .xzoom {
+  width: 100%;
+  height: 385px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body .des-kegiatan h6 {
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #F8C22D;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body .des-kegiatan .posted-time {
+  font-size: 14px;
+  color: #BFBFBF;
+}
+
+.section-detail-kegiatan .konten-kegiatan .card-body p {
+  text-align: justify;
+  color: black;
+  font-size: 15px;
+}
+
+.section-detail-kegiatan .konten-kegiatan-lainnya .card-body h5 {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
