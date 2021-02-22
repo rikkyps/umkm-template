@@ -39,18 +39,8 @@
   color: #ffffff;
 }
 
-.carousel {
-  margin-top: 60px;
-  background-size: cover;
-}
-
 .carousel .carousel-inner .carousel-item img {
   min-height: 400px;
-  max-height: 400px;
-}
-
-.carousel .carousel-inner .carousel-item .carousel-caption {
-  margin-bottom: 50px;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption h2 {
@@ -93,17 +83,13 @@
   color: #ffffff;
 }
 
-.produk-kredit {
-  margin-top: 20px;
-}
-
 .produk-kredit img {
   position: relative;
   width: 100%;
 }
 
 .produk-kredit .kredit-text {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .produk-kredit .kredit-text h2 {
@@ -242,7 +228,6 @@ footer {
 
 .section-content-header {
   background-color: #082752;
-  margin-top: 80px;
   min-height: 310px;
 }
 
@@ -268,7 +253,7 @@ footer {
 }
 
 .section-daftar-umkm {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .section-daftar-umkm .card .card-body .header-title {
@@ -311,7 +296,7 @@ footer {
 }
 
 .section-daftar-kegiatan {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .section-daftar-kegiatan .card .card-body .header-title {
@@ -354,7 +339,7 @@ footer {
 }
 
 .section-title-produk-kredit {
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .section-title-produk-kredit h1 {
@@ -388,7 +373,7 @@ footer {
 }
 
 .section-detail-kegiatan {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .section-detail-kegiatan .konten-kegiatan .card-body h2 {

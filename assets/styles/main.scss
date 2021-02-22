@@ -40,17 +40,13 @@
 }
 
 .carousel {
-  margin-top: 60px;
-  background-size: cover;
 
   .carousel-inner {
     .carousel-item{
       img{
         min-height: 400px;
-        max-height: 400px;
       }
       .carousel-caption{
-        margin-bottom: 50px;
         h2{
           font-family: 'Assistant', sans-serif;
           font-size: 45px;
@@ -93,13 +89,12 @@
 }
 
 .produk-kredit{
-  margin-top: 20px;
   img{
     position: relative;
     width: 100%;
   }
   .kredit-text{
-    margin-top: 120px;
+    margin-top: 60px;
     h2{
       font-family: 'Poppins', sans-serif;
       font-size: 30px;
@@ -228,7 +223,6 @@ footer{
 
 .section-content-header{
   background-color: #082752;
-  margin-top: 80px;
   min-height: 310px;
 }
 .section-content-breadcrumb{
@@ -253,7 +247,7 @@ footer{
 }
 
 .section-daftar-umkm{
-  margin-top: 70px;
+  margin-top: 20px;
   .card {
     .card-body{
 
@@ -297,7 +291,7 @@ footer{
 }
 
 .section-daftar-kegiatan{
-  margin-top: 70px;
+  margin-top: 20px;
   .card {
     .card-body{
 
@@ -341,7 +335,7 @@ footer{
 }
 
 .section-title-produk-kredit{
-  margin-top: 80px;
+  margin-top: 20px;
   h1{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -372,7 +366,7 @@ footer{
 }
 
 .section-detail-kegiatan{
-  margin-top: 70px;
+  margin-top: 20px;
 
   .konten-kegiatan{
     .card-body{
