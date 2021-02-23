@@ -1,4 +1,7 @@
 
+$(document).ready(function () {
+  $("#myModal").modal('show');
+});
 
 $(document).ready(function () {
 
@@ -14,9 +17,7 @@ $(document).ready(function () {
     });
   });
 
-  $(document).ready(function () {
-    $("#myModal").modal('show');
-  });
+  
 
   $('.owl-carousel').owlCarousel({
     loop: false,
