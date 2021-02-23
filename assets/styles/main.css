@@ -27,16 +27,20 @@
   color: #ffff !important;
 }
 
-.btn-login {
+.btn-general {
   font-family: 'Montserrat', 'serif';
   background-color: #F8C22D;
   color: #ffff;
   font-size: 16px;
 }
 
-.btn-login:hover {
+.btn-general:hover {
   background-color: #FCCF52;
   color: #ffffff;
+}
+
+.modal p {
+  color: #124C9A;
 }
 
 .carousel {
@@ -232,6 +236,45 @@
 
 .list-umkm-kegiatan .list-kegiatan .list-kegiatan-item p {
   font-size: 18px;
+  color: #BFBFBF;
+}
+
+.section-iklan p {
+  font-size: 14px;
+  color: #BFBFBF;
+}
+
+.section-iklan h3 {
+  color: #124C9A;
+}
+
+.section-video {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.section-video p {
+  color: #BFBFBF;
+}
+
+.section-testimoni {
+  background-color: #082752;
+  margin-bottom: -50px;
+  margin-top: 100px;
+  padding-top: 25px;
+}
+
+.section-testimoni h3 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.section-testimoni p {
+  margin-top: -1px;
+  font-size: 14px;
   color: #BFBFBF;
 }
 
@@ -514,5 +557,26 @@ footer {
 
 .section-umkm-lainnya .btn-view-umkm:hover {
   background-color: #FCCF52;
+}
+
+.section-tentang-kami {
+  margin-top: 20px;
+}
+
+.section-tentang-kami hr {
+  margin-top: -1px;
+}
+
+.section-tentang-kami .card-body h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: -1px;
+  color: #124C9A;
+}
+
+.section-tentang-kami .card-body p {
+  font-size: 16px;
+  color: black;
+  text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */

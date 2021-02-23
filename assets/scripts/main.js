@@ -14,11 +14,15 @@ $(document).ready(function () {
     });
   });
 
+  $(document).ready(function () {
+    $("#myModal").modal('show');
+  });
+
   $('.owl-carousel').owlCarousel({
     loop: false,
     margin: 10,
     responsiveClass: true,
-    
+
     responsive: {
       0: {
         items: 2,

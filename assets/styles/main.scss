@@ -27,16 +27,23 @@
   color: #ffff !important;
 }
 
-.btn-login {
+.btn-general {
   font-family: 'Montserrat', 'serif';
   background-color: #F8C22D;
   color: #ffff;
   font-size: 16px;
 }
 
-.btn-login:hover {
+
+.btn-general:hover {
   background-color: #FCCF52;
   color: #ffffff;
+}
+
+.modal{
+  p{
+    color: #124C9A;
+  }
 }
 
 .carousel {
@@ -219,6 +226,43 @@
         color: #BFBFBF;
       }
     }
+  }
+}
+
+.section-iklan{
+  p{
+    font-size: 14px;
+    color: #BFBFBF;
+  }
+  h3{
+    color: #124C9A;
+  }
+}
+
+.section-video{
+  margin-top: -20px;
+  margin-bottom: 30px;
+  p{
+    color: #BFBFBF;
+  }
+}
+
+.section-testimoni{
+  background-color: #082752;
+  margin-bottom: -50px;
+  margin-top: 100px;
+  padding-top: 25px;
+  h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+  }
+  p{
+    margin-top: -1px;
+    font-size: 14px;
+    color: #BFBFBF;
   }
 }
 
@@ -512,6 +556,27 @@ footer{
 
   .btn-view-umkm:hover {
     background-color: #FCCF52;
+  }
+}
+
+.section-tentang-kami{
+  margin-top: 20px;
+  hr{
+    margin-top: -1px;
+  }
+  .card-body{
+    h4{
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      margin-bottom: -1px;
+      color: #124C9A;
+    }
+
+    p{
+      font-size: 16px;
+      color: black;
+      text-align: justify;
+    }
   }
 }
 
