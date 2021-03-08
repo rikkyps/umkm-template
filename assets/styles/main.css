@@ -397,6 +397,10 @@ footer a {
   margin-top: 20px;
 }
 
+.section-daftar-kegiatan .card {
+  padding: 20px;
+}
+
 .section-daftar-kegiatan .card .card-body .list-kegiatan-style {
   margin-bottom: 20px;
 }
