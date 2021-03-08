@@ -388,6 +388,17 @@ footer{
   .card {
     .card-body{
 
+      .list-kegiatan-style{
+        margin-bottom: 20px;
+        :hover{
+          background-color: whitesmoke
+        }
+      }
+
+      img:hover{
+        opacity: 0.7;
+      }
+
       .header-title{
         margin-bottom: 30px;
         .btn-cari{

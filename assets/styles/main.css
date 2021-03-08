@@ -397,6 +397,18 @@ footer a {
   margin-top: 20px;
 }
 
+.section-daftar-kegiatan .card .card-body .list-kegiatan-style {
+  margin-bottom: 20px;
+}
+
+.section-daftar-kegiatan .card .card-body .list-kegiatan-style :hover {
+  background-color: whitesmoke;
+}
+
+.section-daftar-kegiatan .card .card-body img:hover {
+  opacity: 0.7;
+}
+
 .section-daftar-kegiatan .card .card-body .header-title {
   margin-bottom: 30px;
 }
