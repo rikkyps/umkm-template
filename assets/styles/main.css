@@ -409,6 +409,10 @@ footer a {
   background-color: whitesmoke;
 }
 
+.section-daftar-kegiatan .card .card-body .list-kegiatan-style .row-all {
+  padding: 10px;
+}
+
 .section-daftar-kegiatan .card .card-body img {
   margin-bottom: 10px;
 }
