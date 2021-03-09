@@ -191,9 +191,25 @@
         color: #124C9A;
       }
 
+      a{
+        text-decoration:none
+      }
+
       p{
         font-size: 18px;
         color: #BFBFBF;
+      }
+
+      .img-hover-zoom {
+        overflow: hidden; 
+      }
+
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
       }
     }
   }
@@ -240,32 +256,50 @@
         font-size: 18px;
         color: #BFBFBF;
       }
+
+      a{
+        text-decoration:none
+      }
+
+      .img-hover-zoom {
+        overflow: hidden; 
+      }
+
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
+      }
     }
   }
 }
 
-.section-iklan{
-  p{
-    font-size: 14px;
-    color: #BFBFBF;
+.section-iklan {
+  background-color: #082752;
+  margin-bottom: -30px;
+  margin-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  h3 {
+    color: #bfbfbf;
   }
-  h3{
-    color: #124C9A;
+  p {
+    font-size: 14px;
+    color: #bfbfbf;
   }
 }
 
-.section-video{
-  margin-top: -20px;
+.section-video {
+  margin-top: 110px;
   margin-bottom: 30px;
-  p{
-    color: #BFBFBF;
-  }
 }
 
 .section-testimoni{
   background-color: #082752;
   margin-bottom: -50px;
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 25px;
 
   .title-testimoni{
@@ -314,6 +348,12 @@ footer{
   background-color: #D9D9D9;
   font-family: 'Poppins', sans-serif;
   color: #082752;
+
+  .footer-logo{
+    @media only screen and (max-width: 765px) {
+      text-align: center;
+    }
+  }
   li{
     font-size: 16px;
     font-weight: 300;
@@ -349,7 +389,10 @@ footer{
         font-weight: bold;
         color: white;
       }
-  }
+      @media only screen and (max-width: 765px) {
+        font-size: 12px;
+      }
+    }
   }
 }
 
@@ -376,6 +419,14 @@ footer{
       h5{
         color: black;
       }
+
+      h5:hover{
+        color: #124C9A;
+      }
+
+      a{
+        text-decoration: none;
+      }
       
       p{
         font-size: 16px;
@@ -390,12 +441,20 @@ footer{
         color: #F8C22D;
       }
 
-      .email{
-        font-size: 20px;
-      }
-
       li{
         margin-bottom: 10px;
+      }
+
+      .img-hover-zoom {
+        overflow: hidden; 
+      }
+
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
       }
     }
   }
@@ -422,14 +481,6 @@ footer{
          }
       }
 
-      img{
-        margin-bottom: 10px;
-      }
-
-      img:hover{
-        opacity: 0.7;
-      }
-
       .header-title{
         margin-bottom: 30px;
         .btn-cari{
@@ -447,6 +498,26 @@ footer{
 
       h5{
         color: black;
+      }
+
+      a{
+        text-decoration: none;
+      }
+
+      h5:hover{
+        color: #124C9A;
+      }
+
+      .img-hover-zoom {
+        overflow: hidden; 
+      }
+
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
       }
       
       p{
@@ -561,6 +632,26 @@ footer{
     .card-body{
       h5{
         color: black;
+      }
+
+      h5:hover{
+        color: #124C9A;;
+      }
+
+      a{
+        text-decoration: none;
+      }
+
+      .img-hover-zoom {
+        overflow: hidden; 
+      }
+
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+
+      .img-hover-zoom:hover img {
+        transform: scale(1.1);
       }
     }
   }

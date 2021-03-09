@@ -208,9 +208,29 @@
   color: #124C9A;
 }
 
+.list-umkm-kegiatan .list-umkm .list-umkm-item a {
+  text-decoration: none;
+}
+
 .list-umkm-kegiatan .list-umkm .list-umkm-item p {
   font-size: 18px;
   color: #BFBFBF;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item .img-hover-zoom {
+  overflow: hidden;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item .img-hover-zoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.list-umkm-kegiatan .list-umkm .list-umkm-item .img-hover-zoom:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .list-umkm-kegiatan .list-kegiatan {
@@ -264,28 +284,52 @@
   color: #BFBFBF;
 }
 
-.section-iklan p {
-  font-size: 14px;
-  color: #BFBFBF;
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item a {
+  text-decoration: none;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item .img-hover-zoom {
+  overflow: hidden;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item .img-hover-zoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.list-umkm-kegiatan .list-kegiatan .list-kegiatan-item .img-hover-zoom:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section-iklan {
+  background-color: #082752;
+  margin-bottom: -30px;
+  margin-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .section-iklan h3 {
-  color: #124C9A;
+  color: #bfbfbf;
+}
+
+.section-iklan p {
+  font-size: 14px;
+  color: #bfbfbf;
 }
 
 .section-video {
-  margin-top: -20px;
+  margin-top: 110px;
   margin-bottom: 30px;
-}
-
-.section-video p {
-  color: #BFBFBF;
 }
 
 .section-testimoni {
   background-color: #082752;
   margin-bottom: -50px;
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 25px;
 }
 
@@ -333,6 +377,12 @@ footer {
   color: #082752;
 }
 
+@media only screen and (max-width: 765px) {
+  footer .footer-logo {
+    text-align: center;
+  }
+}
+
 footer li {
   font-size: 16px;
   font-weight: 300;
@@ -374,6 +424,12 @@ footer a {
   color: white;
 }
 
+@media only screen and (max-width: 765px) {
+  .section-content-breadcrumb .breadcrumb .breadcrumb-item {
+    font-size: 12px;
+  }
+}
+
 .section-daftar-umkm {
   margin-top: 20px;
 }
@@ -402,6 +458,14 @@ footer a {
   color: black;
 }
 
+.section-daftar-umkm .card .card-body h5:hover {
+  color: #124C9A;
+}
+
+.section-daftar-umkm .card .card-body a {
+  text-decoration: none;
+}
+
 .section-daftar-umkm .card .card-body p {
   font-size: 16px;
   font-weight: 300;
@@ -416,12 +480,24 @@ footer a {
   color: #F8C22D;
 }
 
-.section-daftar-umkm .card .card-body .email {
-  font-size: 20px;
-}
-
 .section-daftar-umkm .card .card-body li {
   margin-bottom: 10px;
+}
+
+.section-daftar-umkm .card .card-body .img-hover-zoom {
+  overflow: hidden;
+}
+
+.section-daftar-umkm .card .card-body .img-hover-zoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.section-daftar-umkm .card .card-body .img-hover-zoom:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .section-daftar-kegiatan {
@@ -446,14 +522,6 @@ footer a {
   }
 }
 
-.section-daftar-kegiatan .card .card-body img {
-  margin-bottom: 10px;
-}
-
-.section-daftar-kegiatan .card .card-body img:hover {
-  opacity: 0.7;
-}
-
 .section-daftar-kegiatan .card .card-body .header-title {
   margin-bottom: 30px;
 }
@@ -476,6 +544,30 @@ footer a {
 
 .section-daftar-kegiatan .card .card-body h5 {
   color: black;
+}
+
+.section-daftar-kegiatan .card .card-body a {
+  text-decoration: none;
+}
+
+.section-daftar-kegiatan .card .card-body h5:hover {
+  color: #124C9A;
+}
+
+.section-daftar-kegiatan .card .card-body .img-hover-zoom {
+  overflow: hidden;
+}
+
+.section-daftar-kegiatan .card .card-body .img-hover-zoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.section-daftar-kegiatan .card .card-body .img-hover-zoom:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .section-daftar-kegiatan .card .card-body p {
@@ -583,6 +675,30 @@ footer a {
 
 .section-detail-kegiatan .konten-kegiatan-lainnya .card-body h5 {
   color: black;
+}
+
+.section-detail-kegiatan .konten-kegiatan-lainnya .card-body h5:hover {
+  color: #124C9A;
+}
+
+.section-detail-kegiatan .konten-kegiatan-lainnya .card-body a {
+  text-decoration: none;
+}
+
+.section-detail-kegiatan .konten-kegiatan-lainnya .card-body .img-hover-zoom {
+  overflow: hidden;
+}
+
+.section-detail-kegiatan .konten-kegiatan-lainnya .card-body .img-hover-zoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.section-detail-kegiatan .konten-kegiatan-lainnya .card-body .img-hover-zoom:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .section-title-profile-umkm {
