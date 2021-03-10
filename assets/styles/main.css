@@ -117,6 +117,37 @@
   }
 }
 
+.suku-bunga {
+  background-color: #FFE290;
+  min-height: 20px;
+}
+
+@media only screen and (max-width: 765px) {
+  .suku-bunga .title-suku-bunga {
+    margin: none;
+  }
+}
+
+.suku-bunga .title-suku-bunga .text-suku-bunga {
+  color: #082752;
+  font-weight: bold;
+}
+
+.suku-bunga .title-suku-bunga .text-tanggal {
+  color: grey;
+}
+
+.suku-bunga .list-suku-bunga {
+  color: #124C9A;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 765px) {
+  .suku-bunga .list-suku-bunga marquee {
+    margin: none;
+  }
+}
+
 .produk-kredit img {
   position: relative;
   width: 100%;
@@ -799,5 +830,10 @@ footer a {
   font-size: 16px;
   color: black;
   text-align: justify;
+}
+
+.bg {
+  background-image: url("../images/background-registrasi.jpg");
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
