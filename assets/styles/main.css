@@ -836,4 +836,50 @@ footer a {
   background-image: url("../images/background-registrasi.jpg");
   background-size: cover;
 }
+
+.section-form-registrasi {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.section-form-registrasi p {
+  color: #BFBFBF;
+}
+
+.section-form-registrasi .row {
+  background-color: white;
+  border-radius: 30px;
+}
+
+.section-form-registrasi img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .section-form-registrasi img {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.section-form-registrasi h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.section-form-registrasi select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.section-form-registrasi .btn-register {
+  background-color: #FCCF52;
+  color: white;
+}
+
+.section-form-registrasi .btn-login {
+  background-color: #124C9A;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

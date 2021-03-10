@@ -792,7 +792,46 @@ footer{
 }
 
 .section-form-registrasi{
-  
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+
+  p{
+    color: #BFBFBF;
+  }
+
+  .row{
+    background-color: white;
+    border-radius: 30px;
+  }
+
+  img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    @media only screen and (max-width: 991px) {
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+
+  select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  }
+
+  .btn-register{
+    background-color: #FCCF52;
+    color: white;
+  }
+
+  .btn-login{
+    background-color: #124C9A;
+    color: white;
+  }
 }
 
 
