@@ -114,26 +114,30 @@
 
 .suku-bunga{
   background-color: #FFE290;
-  min-height: 20px;
-  .title-suku-bunga{
-    @media only screen and (max-width: 765px) {
-      margin: none;
-    }
-    .text-suku-bunga{
-      color: #082752;
-      font-weight: bold;
-    }
-    .text-tanggal{
-      color: grey;
-    }
-  }
-  .list-suku-bunga{
-    color: #124C9A;
-    margin-right: 10px;
-    marquee{
+  min-height: 10px;
+  .col-kiri{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    .title-suku-bunga{
       @media only screen and (max-width: 765px) {
         margin: none;
       }
+      .text-suku-bunga{
+        color: #082752;
+        font-weight: bold;
+      }
+      .text-tanggal{
+        color: grey;
+      }
+    }
+  }
+  .list-suku-bunga{
+
+    color: #124C9A;
+    margin-right: 10px;
+    margin-top: 10px;
+    @media only screen and (max-width: 765px) {
+      margin-top: -15px;
     }
   }
 }
@@ -145,21 +149,33 @@
   }
   .kredit-text{
     margin-top: 40px;
+    @media only screen and (max-width: 765px) {
+      margin-top: 20px;
+    }
     h2{
       font-family: 'Poppins', sans-serif;
       font-size: 30px;
       font-weight: 600;
+      @media only screen and (max-width: 765px) {
+        font-size: 25px;
+      }
     }
     .subtitle{
       font-size: 18px;
       font-weight: 300;
       color: #BFBFBF;
+      @media only screen and (max-width: 765px) {
+        font-size: 16px;
+      }
     }
 
     .item{
       font-family: 'Poppins', sans-serif;
       font-size: 22px;
       font-weight: 300;
+      @media only screen and (max-width: 765px) {
+        font-size: 16px;
+      }
     }
 
     .btn-kredit{
@@ -171,9 +187,33 @@
   }
 }
 
+.section-divider{
+  hr{
+    height: 30px;
+    border-style: solid;
+    border-color: #BFBFBF;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+  }
+
+  hr:before{
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #BFBFBF;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
+}
+
 .list-umkm-kegiatan{
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 20px;
+  @media only screen and (max-width: 765px) {
+    margin-top: -20px;
+  }
   .list-umkm{
     margin-top: 20px;
     .btn-lihat{
