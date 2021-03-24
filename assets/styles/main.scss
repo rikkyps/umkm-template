@@ -71,6 +71,31 @@
   }
 }
 
+.kegiatan {
+  background-size: cover;
+  margin-top: 80px;
+  .carousel-inner {
+    .carousel-item{
+      img{
+        min-height: 500px;
+        max-height: 500px;
+      }
+      .carousel-caption{
+        h2{
+          font-family: 'Assistant', sans-serif;
+          font-size: 45px;
+          font-weight: bold;
+        }
+        p{
+          font-family: 'Assistant', sans-serif;
+          font-size: 25px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
 .rekap-umkm{
   background-color: #082752;
 
@@ -438,6 +463,7 @@ footer{
   background-color: #082752;
   min-height: 310px;
 }
+
 .section-content-breadcrumb{
 
   margin-top: -290px;
@@ -526,11 +552,81 @@ footer{
   }
 }
 
+.section-content-header-daftar-kegiatan{
+  background-color: #082752;
+  min-height: 310px;
+  margin-bottom: -250px;
+}
+
 .section-daftar-kegiatan{
   margin-top: 20px;
   .card {
     padding: 20px;
     .card-body{
+      
+      .highlight-kegiatan{
+        margin-top: -60px;
+
+        .carousel{
+          .img-hover-zoom {
+            overflow: hidden; 
+          }
+    
+          .img-hover-zoom img {
+            transition: transform .5s ease;
+          }
+    
+          .img-hover-zoom:hover img {
+            transform: scale(1.1);
+          }
+        }
+        
+        /* Bottom left text */
+        h3{
+          font-size: 22px;
+          color: white;
+          overflow: hidden;
+          text-overflow: clip;
+          display: -webkit-box;
+          -webkit-line-clamp: 1; /* number of lines to show */
+          -webkit-box-orient: vertical;
+          @media only screen and (max-width: 765px) {
+            font-size: 16px;
+          }
+        }
+
+        h3:hover{
+          color: #F8C22D;
+        }
+
+        a{
+          text-decoration: none;
+        }
+
+        .bottom-left-posted-by{
+          position: absolute;
+          bottom: 20px;
+          left: 16px;
+          p{
+            padding-top: 3px;
+            font-size: 13px;
+            font-weight: 300;
+            color: #BFBFBF;
+          }
+          h6{
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            color: #F8C22D;
+          }
+        }
+
+        .bottom-left-title{
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+      }
       
       .list-kegiatan-style{
         :hover{
@@ -564,6 +660,9 @@ footer{
 
       h5{
         color: black;
+        @media only screen and (max-width: 765px) {
+          font-size: 16px;
+        }
       }
 
       a{
@@ -590,6 +689,9 @@ footer{
         font-size: 16px;
         font-weight: 300;
         color: #BFBFBF;
+        @media only screen and (max-width: 765px) {
+          font-size: 12px;
+        }
       }
       h6{
         margin-top: 5px;

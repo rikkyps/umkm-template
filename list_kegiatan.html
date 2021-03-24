@@ -58,24 +58,53 @@
       </div>
   </nav>
 
-  <main>
-    <section class="section-content-header"></section>
-
-    <!-- Breadcrumb -->
-    <section class="section-content-breadcrumb">
-      <nav>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item">Beranda</li>
-                <li class="breadcrumb-item active">Kegiatan</li>
-              </ol>
-            </div>
+  <!-- Image Banner -->
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide kegiatan" data-ride="carousel" data-aos="fade-left">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner justify-content-center">
+        <div class="carousel-item active" data-interval="4000">
+          <img src="assets/images/banner-umkm-small.jpg" class="d-block w-100 img-responsive" alt="...">
+          <div class="carousel-caption">
+            <h2>Sukses Bersama UMKM</h2>
+            <p>Membina bersama untuk ekonomi masyarakat <br>
+              yang lebih sejahtera..</p>
           </div>
         </div>
-      </nav>
-    </section>
+        <div class="carousel-item" data-interval="2000">
+          <img src="assets/images/Image.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h2>Sukses Bersama UMKM</h2>
+            <p>Membina bersama untuk ekonomi masyarakat <br>
+              yang lebih sejahtera..</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img src="assets/images/Image.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h2>Sukses Bersama UMKM</h2>
+            <p>Membina bersama untuk ekonomi masyarakat <br>
+              yang lebih sejahtera..</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-content-header-daftar-kegiatan"></section>
 
     <!-- List Kegiatan -->
     <section class="section-daftar-kegiatan">
@@ -98,14 +127,103 @@
                   </div>
                 </div>
 
+                <!-- Highlight Kegiatan -->
+                <div class="row highlight-kegiatan mb-3" data-aos="fade-up">
+                  <div class="col-md-12 col-lg-12 p-0">
+                    <div id="carouselKu" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active img-hover-zoom" data-interval="2000">
+                          <img src="assets/images/banner-umkm-small.jpg" class="d-block img-fluid"
+                            style="height: auto; width: 100%;" alt="...">
+                        </div>
+                        <div class="carousel-item img-hover-zoom" data-interval="2000">
+                          <img src="assets/images/banner-umkm-small.jpg" class="d-block img-fluid"
+                            style="height: auto; width: 100%;" alt="...">
+                        </div>
+                        <div class="carousel-item img-hover-zoom" data-interval="2000">
+                          <img src="assets/images/banner-umkm-small.jpg" class="d-block img-fluid"
+                            style="height: auto; width: 100%;" alt="...">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselKu" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselKu" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <div class="row bottom-left-posted-by p-3">
+                        <h6 class="mr-1">Admin</h6>
+                        <p> - 13 Mei 2021</p>
+                    </div>
+                    <a href="detail_kegiatan.html">
+                      <h3 class="bottom-left-title">Seminar pengaruh teknologi 4.0 terhadap usaha UMKM</h3>
+                    </a>
+                  </div>
+                </div>
+
                 <!-- List Item Kegiatan -->
                 <ol class="list-unstyled">
                   <li data-aos="fade-up" class="list-kegiatan-style">
                     <div class="row row-all">
                       <div class="col-md-6 col-lg-4 col-sm-12 p-0">
                         <div class="img-hover-zoom">
-                          <a href="detail_kegiatan.html"><img class="float-start" src="assets/images/banner-umkm-small.jpg"
-                              alt="" style="width: 100%; height: auto;"></a>
+                          <a href="detail_kegiatan.html"><img class="float-start"
+                              src="assets/images/banner-umkm-small.jpg" alt="" style="width: 100%; height: auto;"></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-md-6 col-sm-12 konten-text">
+                        <a href="detail_kegiatan.html">
+                          <h5 class="text-break">
+                            Halal Bi Halal bersama anggota UMKM binaan dalam rangka 1 syawal 1445 H
+                          </h5>
+                        </a>
+                        <div class="row">
+                          <h6 class="ml-3 mr-2">Admin</h6>
+                          <p class="posted-time"> - 13 Mei 2021</p>
+                        </div>
+                        <p class="description">
+                          Dalam rangka menyambut 1 syawal 1445 H kami menyelenggarakan acara halal bihalal dengan para
+                          pelaku usaha UMKM binaan kami dengan tujuan mempererat..
+                        </p>
+                      </div>
+                    </div>
+                    <hr>
+                  </li>
+                  <li data-aos="fade-up" class="list-kegiatan-style">
+                    <div class="row row-all">
+                      <div class="col-md-6 col-lg-4 col-sm-12 p-0">
+                        <div class="img-hover-zoom">
+                          <a href="detail_kegiatan.html"><img class="float-start"
+                              src="assets/images/banner-umkm-small.jpg" alt="" style="width: 100%; height: auto;"></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-md-6 col-sm-12 konten-text">
+                        <a href="detail_kegiatan.html">
+                          <h5 class="text-break">
+                            Halal Bi Halal bersama anggota UMKM binaan dalam rangka 1 syawal 1445 H
+                          </h5>
+                        </a>
+                        <div class="row">
+                          <h6 class="ml-3 mr-2">Admin</h6>
+                          <p class="posted-time"> - 13 Mei 2021</p>
+                        </div>
+                        <p class="description">
+                          Dalam rangka menyambut 1 syawal 1445 H kami menyelenggarakan acara halal bihalal dengan para
+                          pelaku usaha UMKM binaan kami dengan tujuan mempererat..
+                        </p>
+                      </div>
+                    </div>
+                    <hr>
+                  </li>
+                  <li data-aos="fade-up" class="list-kegiatan-style">
+                    <div class="row row-all">
+                      <div class="col-md-6 col-lg-4 col-sm-12 p-0">
+                        <div class="img-hover-zoom">
+                          <a href="detail_kegiatan.html"><img class="float-start"
+                              src="assets/images/banner-umkm-small.jpg" alt="" style="width: 100%; height: auto;"></a>
                         </div>
                       </div>
                       <div class="col-lg-8 col-md-6 col-sm-12 konten-text">
@@ -174,6 +292,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="section-footer mt-5">
       <div class="container pt-3 pb-3">
         <div class="row justify-content-center">
@@ -182,7 +301,7 @@
               <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="footer-logo">
                   <a href="#"><img src="assets/images/logo_umkm.png" class="img-fluid" alt=""
-                    style="width: 40%; height: auto;"></a>
+                      style="width: 40%; height: auto;"></a>
                 </div>
                 <ul class="list-unstyled">
                   <li>Jalan K.H Abdul halim No. 1
@@ -222,13 +341,7 @@
       </div>
     </footer>
 
-
   </main>
-
-
-
-
-
 
   <script src="assets/libraries/jquery/jquery-3.5.1.min.js"></script>
   <script src="assets/libraries/bootstrap/js/bootstrap.js"></script>
