@@ -649,7 +649,7 @@ footer a {
 .section-daftar-kegiatan .card .card-body .highlight-kegiatan .background {
   padding-left: 20px;
   /* Bottom left text */
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
 
