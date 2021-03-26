@@ -562,6 +562,10 @@ footer a {
   }
 }
 
+.section-daftar-umkm .card .card-body .highlight-umkm h5 {
+  font-size: 16px;
+}
+
 .section-daftar-umkm .card .card-body h5 {
   color: black;
 }
@@ -623,8 +627,7 @@ footer a {
 }
 
 .section-daftar-kegiatan .card .card-body .highlight-kegiatan {
-  margin-top: -60px;
-  /* Bottom left text */
+  margin-top: -40px;
 }
 
 .section-daftar-kegiatan .card .card-body .highlight-kegiatan .carousel .img-hover-zoom {
@@ -643,7 +646,15 @@ footer a {
           transform: scale(1.1);
 }
 
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan h3 {
+.section-daftar-kegiatan .card .card-body .highlight-kegiatan .background {
+  padding-left: 20px;
+  /* Bottom left text */
+  background-color: black;
+  width: 100%;
+}
+
+.section-daftar-kegiatan .card .card-body .highlight-kegiatan .background h3 {
+  margin-top: -30px;
   font-size: 22px;
   color: white;
   overflow: hidden;
@@ -655,43 +666,31 @@ footer a {
 }
 
 @media only screen and (max-width: 765px) {
-  .section-daftar-kegiatan .card .card-body .highlight-kegiatan h3 {
+  .section-daftar-kegiatan .card .card-body .highlight-kegiatan .background h3 {
     font-size: 16px;
   }
 }
 
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan h3:hover {
+.section-daftar-kegiatan .card .card-body .highlight-kegiatan .background h3:hover {
   color: #F8C22D;
 }
 
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan a {
+.section-daftar-kegiatan .card .card-body .highlight-kegiatan .background a {
   text-decoration: none;
 }
 
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan .bottom-left-posted-by {
-  position: absolute;
-  bottom: 20px;
-  left: 16px;
-}
-
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan .bottom-left-posted-by p {
+.section-daftar-kegiatan .card .card-body .highlight-kegiatan .background .bottom-left-posted-by p {
   padding-top: 3px;
   font-size: 13px;
   font-weight: 300;
   color: #BFBFBF;
 }
 
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan .bottom-left-posted-by h6 {
+.section-daftar-kegiatan .card .card-body .highlight-kegiatan .background .bottom-left-posted-by h6 {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #F8C22D;
-}
-
-.section-daftar-kegiatan .card .card-body .highlight-kegiatan .bottom-left-title {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
 }
 
 .section-daftar-kegiatan .card .card-body .list-kegiatan-style :hover {

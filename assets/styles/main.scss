@@ -508,6 +508,12 @@ footer{
         }
       }
 
+      .highlight-umkm{
+        h5{
+          font-size: 16px;
+        }
+      }
+
       h5{
         color: black;
       }
@@ -565,7 +571,7 @@ footer{
     .card-body{
       
       .highlight-kegiatan{
-        margin-top: -60px;
+        margin-top: -40px;
 
         .carousel{
           .img-hover-zoom {
@@ -580,51 +586,48 @@ footer{
             transform: scale(1.1);
           }
         }
-        
-        /* Bottom left text */
-        h3{
-          font-size: 22px;
-          color: white;
-          overflow: hidden;
-          text-overflow: clip;
-          display: -webkit-box;
-          -webkit-line-clamp: 1; /* number of lines to show */
-          -webkit-box-orient: vertical;
-          @media only screen and (max-width: 765px) {
-            font-size: 16px;
+
+        .background{
+          padding-left: 20px;
+          /* Bottom left text */
+          background-color: black;
+          width: 100%;
+          h3{
+            margin-top: -30px;
+            font-size: 22px;
+            color: white;
+            overflow: hidden;
+            text-overflow: clip;
+            display: -webkit-box;
+            -webkit-line-clamp: 1; /* number of lines to show */
+            -webkit-box-orient: vertical;
+            @media only screen and (max-width: 765px) {
+              font-size: 16px;
+            }
           }
-        }
 
-        h3:hover{
-          color: #F8C22D;
-        }
-
-        a{
-          text-decoration: none;
-        }
-
-        .bottom-left-posted-by{
-          position: absolute;
-          bottom: 20px;
-          left: 16px;
-          p{
-            padding-top: 3px;
-            font-size: 13px;
-            font-weight: 300;
-            color: #BFBFBF;
-          }
-          h6{
-            font-family: 'Poppins', sans-serif;
-            font-size: 13px;
-            font-weight: 600;
+          h3:hover{
             color: #F8C22D;
           }
-        }
 
-        .bottom-left-title{
-          position: absolute;
-          bottom: 8px;
-          left: 16px;
+          a{
+            text-decoration: none;
+          }
+
+          .bottom-left-posted-by{
+            p{
+              padding-top: 3px;
+              font-size: 13px;
+              font-weight: 300;
+              color: #BFBFBF;
+            }
+            h6{
+              font-family: 'Poppins', sans-serif;
+              font-size: 13px;
+              font-weight: 600;
+              color: #F8C22D;
+            }
+          }
         }
       }
       
