@@ -233,6 +233,25 @@
   }
 }
 
+.section-partner{
+  background-color: #082752;
+  min-height: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: -5px;
+  }
+  p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #BFBFBF;
+  }
+}
+
 .list-umkm-kegiatan{
   margin-bottom: 100px;
   margin-top: 20px;
@@ -386,6 +405,27 @@
   margin-top: 110px;
   margin-bottom: 30px;
 }
+
+.hr-modal{
+  border-top: 2px solid;
+  color: #BFBFBF;
+  border-radius: 15px;
+}
+
+.close-modal{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 480px;
+  top: -10px;
+  background-color: white;
+  border-radius: 100%;
+  @media only screen and (max-width: 765px) {
+    left: 320px;
+    top: -10px;
+  }
+}
+
 
 .section-testimoni{
   background-color: #082752;
@@ -556,6 +596,39 @@ footer{
       }
     }
   }
+
+  .box-kategori{
+    .heading-kategori{
+      font-family: 'Poppins', sans-serif;
+      color: #082752;
+      font-size: 18px;
+    }
+    .float-left{
+      font-family: 'Poppins', sans-serif;
+      color: #BFBFBF;
+      font-size: 14px;
+    }
+
+    .float-left:hover{
+      color: black;
+    }
+
+    .float-right{
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  // .heading-kategori::after{
+  //   content: '';
+  //   display: block;
+  //   width: 170px;
+  //   height: 2px;
+  //   background: #BFBFBF;
+  //   position: absolute;
+  //   right: 10px;
+  //   top: 40%;
+  // }
 }
 
 .section-content-header-daftar-kegiatan{
